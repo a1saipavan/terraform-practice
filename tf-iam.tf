@@ -6,6 +6,6 @@ resource "aws_iam_user" "tf.user" {
   name = "tf.user"
 
   tags = {
-    Name        = "tf-user"
+    name = "tf-user"
   }
 }
