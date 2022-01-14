@@ -7,6 +7,5 @@ resource "aws_iam_user" "tf.user" {
 
   tags = {
     Name        = "tf-user"
-    Environment = "Dev"
   }
 }
